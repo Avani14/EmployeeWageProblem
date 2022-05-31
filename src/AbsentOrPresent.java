@@ -1,6 +1,6 @@
 
 public class AbsentOrPresent {
-	static float attendance;
+	protected float attendance;
 	public AbsentOrPresent(){
 	
 		attendance = (float) (Math.floor(Math.random()*10)%2);

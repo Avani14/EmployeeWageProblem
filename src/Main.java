@@ -6,6 +6,7 @@ public class Main {
 		System.out.println("Employee wage computation program on master branch!!");
 //		AbsentOrPresent attend = new AbsentOrPresent();
 		WageCalculation wc = new WageCalculation();
+		WageCalculationUsingSwitch wcs = new WageCalculationUsingSwitch();
 	}
 
 }
