@@ -8,6 +8,8 @@ public class Main {
 //		WageCalculation wc = new WageCalculation();
 //		WageCalculationUsingSwitch wcs = new WageCalculationUsingSwitch();
 		MonthlyWage mw = new MonthlyWage();
+		ConditionSatisfy cs = new ConditionSatisfy();
+		cs.conditionCheck();
 	}
 
 }
