@@ -1,8 +1,8 @@
 
 public class AbsentOrPresent {
 	static float attendance;
-	public void absentOrPresent()
-	{
+	public AbsentOrPresent(){
+	
 		attendance = (float) (Math.floor(Math.random()*10)%2);
         if(attendance == 1)
         {
@@ -11,5 +11,7 @@ public class AbsentOrPresent {
         else {
             System.out.println("Employee is not present today");
         }
+        
+	
 	}
 }
